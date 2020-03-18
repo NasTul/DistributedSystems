@@ -1,0 +1,56 @@
+Group Members：
+ Chao Wang
+ Lin Li
+ Yue Zhao
+
+
+meeting 1 (27.03.2019 Wed): 
+
+    We analyze the contents of the Project together, identifie the key milestones and assigne tasks to each team member. More specific, divide the project into the following sections:
+
+    section 1 : 
+        TPC Connection  -  Client/Server
+
+    section 2 : 
+        File System Events  -  FILE_CREATE / FILE_DELETE / FILE_MODIFY / DIRECTORY_CREATE / DIRECTORY_DELETE
+
+    section 3 : 
+        Peer Protocol Messages  - INVALID_PROTOCOL / CONNECTION_REFUSED / HANDSHAKE_REQUEST / HANDSHAKE_RESPONSE / FILE_CREATE_REQUEST / FILE_CREATE_RESPONSE / FILE_DELETE_REQUEST / FILE_DELETE_RESPONSE / FILE_MODIFY_REQUEST / FILE_MODIFY_RESPONSE / DIRECTORY_CREATE_REQUEST / DIRECTORY_CREATE_RESPONSE / DIRECTORY_DELETE_REQUEST / DIRECTORY_DELETE_RESPONSE / FILE_BYTES_REQUEST / FILE_BYTES_RESPONSE / 
+
+    additional:
+        secure transmission  multithreading
+
+
+meeting 2 (03.04.2019 Wed):
+
+    After the Additional Tutorial about TCP Server and Multi-threading, we clarified the direction of the project. Establish a TCP connection by handshake, use Base64 for encoding and decoding, use UTF8 JSON file to communicate, and use file system API to operate the FileSystemManager.
+
+meeting 3 (10.04.2019 Wed):
+
+    We communicate what we have done and list what we need to do.
+
+    What we have done:
+
+        Create a code repository in GitHub
+        Create a collaboration discussion board in Trello
+        Create the project framework 
+        Implement TCP communication transmission
+        Implement Synchronize file creation
+
+
+    Next Plan:
+
+        To complete the Peer Protocol Messages (Li Zhao) (Week 7)
+        Implements non-blocking mode IO (Zhao) (Week 7)
+        Implement File deletion synchronization (Wang) (Week 7)
+        Implement Synchronize file changes (Wang) (Week 7)
+
+        Implement Synchronize directory creation (Wang) (Week 8)
+        Implement directory deletion synchronization (Wang) (Week 8)
+        Implement Synchronize directory changes (Wang) (Week 8)
+
+        Implements Multithreaded file transfer (Li Zhao) (Week 8)
+
+        Optimize the TCP transport code (Li Zhao) (Week 8)
+
+        Implements Secure transmission (Zhao) (Week 8)
